@@ -1,6 +1,7 @@
 {
   "name": "base-web",
   "version": "0.0.0",
+  "private": false,
   "authors": [
     "Dhval <dhval@mailinator.com>"
   ],
