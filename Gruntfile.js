@@ -45,6 +45,17 @@ module.exports = function(grunt) {
             }
         },
 
+        bump: {
+            options: {
+                files: [
+                    "package.json",
+                    "bower.json"
+                ],
+                push: "true",
+                pushTo: 'origin'
+            }
+        },
+
         // Build site using jekyll
         exec: {
             jekyll: {
@@ -490,6 +501,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-svgmin');
+    grunt.loadNpmTasks('grunt-bump');
 
     grunt.registerTask('hello', 'say hello', function() {
         grunt.log.writeln('appConfig json:' + JSON.stringify(appConfig));
