@@ -1,7 +1,7 @@
 {
   "name": "dhval.github.io",
   "description": "Jekyll Template",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "http://dhval.github.io",
   "authors": [
     "Dhval Mudawal"
@@ -13,10 +13,8 @@
     "url": "https://github.com/dhval/static-web.git"
   },
   "main":[
-    "./css/base-war.css",
-    "./css/**",
-    "./js/**",
-    "./img/**"
+    "css",
+    "js"
   ],
    "ignore": [
     "**/.*",
