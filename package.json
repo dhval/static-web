@@ -1,6 +1,6 @@
 {
   "name": "base-web",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": false,
   "description": "Template for generating project.",
   "main": [
